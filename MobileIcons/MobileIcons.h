@@ -35,12 +35,15 @@ CFArrayRef LICopyIconPathsFromBundle(CFBundleRef bundle);
 	 24	57×57	The large icon in home screen in grayscale (iPhone)
 	 25	114×114	The large icon in home screen in grayscale (iPhone 2x)
 	 26	72×72	The large icon in home screen in grayscale (iPad)
+	 
+	 create the default icon "looks like the icon for applications that doesnt have an icon"
 	 */
 CGImageRef LICreateDefaultIcon(int variant);
 	
 	/* Create the icon for a bundle "Application" */
 CGImageRef LICreateIconForBundle(CFBundleRef bundle);
-	
+
+	/* Create an icon from the specified image */
 CGImageRef LICreateIconForImage(CGImageRef image, int variant, int precomposed);
 	
 CGImageRef LICreateIconForBundleURLWithFiles(CFURLRef bundleURL, CFStringRef bundleIdentifier);
