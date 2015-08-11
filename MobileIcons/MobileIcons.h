@@ -68,5 +68,4 @@ CFStringRef LIGetStyleFallbackContainer(CFStringRef LIIconStyleDomain,CFStringRe
 
 #if __cplusplus
 }
-
 #endif /* !_MOBILEICONS_ */
