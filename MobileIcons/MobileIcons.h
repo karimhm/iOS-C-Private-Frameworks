@@ -9,6 +9,7 @@
 #define _MOBILEICONS_
 
 #include <CoreFoundation/CoreFoundation.h>
+#include <CoreGraphics/CoreGraphics.h>
 
 #if __cplusplus
 extern "C" {

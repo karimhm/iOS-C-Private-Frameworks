@@ -8,7 +8,7 @@
 #ifndef _PREFERENCES_
 #define _PREFERENCES_
 
-#include <CoreFoundation/CoreFoundation.h>
+#import <UIKit/UIKit.h>
 
 #if __cplusplus
 extern "C" {
@@ -25,4 +25,6 @@ UIImage *PSBlankIconImage();
     
 #if __cplusplus
 }
+#endif
+
 #endif /* !_PREFERENCES_ */
