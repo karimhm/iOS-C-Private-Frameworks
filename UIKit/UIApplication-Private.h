@@ -8,7 +8,7 @@
 #ifndef _PRIVATEUIAPPLICATION_
 #define _PRIVATEUIAPPLICATION_
 
-#include <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 
 #if __cplusplus
 extern "C" {
